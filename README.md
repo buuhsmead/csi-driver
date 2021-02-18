@@ -7,6 +7,11 @@ enabling you to use Volumes within Kubernetes. Please note that this driver **re
 
 ## Getting Started
 
+0. Make kube-system the actual project
+
+ oc project kube-system
+
+
 1. Create an API token in the [Hetzner Cloud Console](https://console.hetzner.cloud/).
 
 2. Create a secret containing the token:
